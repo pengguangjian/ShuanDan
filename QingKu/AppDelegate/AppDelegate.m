@@ -9,11 +9,14 @@
 #import "AppDelegate.h"
 #import "PGGTabBarViewControllerConfig.h"
 
+#import "PGGBaseNavigationController.h"
+
 #import <UMCommon/UMCommon.h>
 #import <UMShare/UMShare.h>
 #import <ZaloSDK/ZaloSDK.h>
 
 #import "ViewController.h"
+#import "LoginVC.h"
 
 @interface AppDelegate ()
 
@@ -41,8 +44,13 @@
     
 //    PGGTabBarViewControllerConfig *pvc = [[PGGTabBarViewControllerConfig alloc] init];
 //    [self.window setRootViewController:pvc];
-    ViewController *vc = [[ViewController alloc] init];
-    [self.window setRootViewController:vc];
+//    ViewController *vc = [[ViewController alloc] init];
+//    [self.window setRootViewController:vc];
+    
+    LoginVC *lvc = [[LoginVC alloc] init];
+    PGGBaseNavigationController *pnav = [[PGGBaseNavigationController alloc] initWithRootViewController:lvc];
+    [self.window setRootViewController:pnav];
+    
     [[UITabBar appearance] setTranslucent:NO];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     

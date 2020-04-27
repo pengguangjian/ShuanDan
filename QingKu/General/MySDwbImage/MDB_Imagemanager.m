@@ -2,7 +2,7 @@
 //  MDB_Imagemanager.m
 //  mdb
 //
-//  Created by 杜非 on 14/12/22.
+//  Created by penggj on 14/12/22.
 //  Copyright (c) 2014年 meidebi. All rights reserved.
 //
 

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		04E0762E24566A0A008A3637 /* MDBwebVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0762D24566A0A008A3637 /* MDBwebVIew.m */; };
+		04E076392456C964008A3637 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E076382456C964008A3637 /* LoginView.m */; };
+		04E0763C2456CC4C008A3637 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0763B2456CC4C008A3637 /* LoginVC.m */; };
+		04E0763F2456CD5C008A3637 /* PGGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0763E2456CD5C008A3637 /* PGGBaseNavigationController.m */; };
+		04E076442456CF59008A3637 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E076462456CF59008A3637 /* Localizable.strings */; };
+		04E0764F2456D680008A3637 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E0764C2456CFD7008A3637 /* Info.plist */; };
 		7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FA3F22C6F597005DDA31 /* AppDelegate.m */; };
 		7708FA4322C6F597005DDA31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FA4222C6F597005DDA31 /* ViewController.m */; };
 		7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7708FA4422C6F597005DDA31 /* Main.storyboard */; };
@@ -37,10 +42,6 @@
 		7708FAF822C70F5E005DDA31 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAF622C70F5D005DDA31 /* RootViewController.m */; };
 		7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAF722C70F5E005DDA31 /* RootTableViewController.m */; };
 		7708FAFC22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */; };
-		7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0222C70FF9005DDA31 /* MyMainViewController.m */; };
-		7708FB0622C71010005DDA31 /* TaoXunMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */; };
-		7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */; };
-		7708FB0C22C71035005DDA31 /* JingXuanMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */; };
 		98DC3ADF3BF871794E36733B /* Pods_QingKu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AA1335B3333DDEF4128D12 /* Pods_QingKu.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,19 @@
 		01E5E04A3770147BCC6796EA /* Pods-QingKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingKu.release.xcconfig"; path = "Target Support Files/Pods-QingKu/Pods-QingKu.release.xcconfig"; sourceTree = "<group>"; };
 		04E0762C24566A09008A3637 /* MDBwebVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBwebVIew.h; sourceTree = "<group>"; };
 		04E0762D24566A0A008A3637 /* MDBwebVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBwebVIew.m; sourceTree = "<group>"; };
+		04E076372456C964008A3637 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		04E076382456C964008A3637 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		04E0763A2456CC4C008A3637 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		04E0763B2456CC4C008A3637 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		04E0763D2456CD5C008A3637 /* PGGBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGBaseNavigationController.h; sourceTree = "<group>"; };
+		04E0763E2456CD5C008A3637 /* PGGBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGBaseNavigationController.m; sourceTree = "<group>"; };
+		04E076452456CF59008A3637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04E076482456CF85008A3637 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		04E076492456CF85008A3637 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		04E0764A2456CF85008A3637 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04E0764B2456CFD7008A3637 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = vi; path = vi.lproj/Info.plist; sourceTree = "<group>"; };
+		04E0764D2456CFE2008A3637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		04E0764E2456CFE3008A3637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		59AA1335B3333DDEF4128D12 /* Pods_QingKu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QingKu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7708FA3B22C6F597005DDA31 /* QingKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7708FA3E22C6F597005DDA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +71,6 @@
 		7708FA4522C6F597005DDA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7708FA4722C6F59C005DDA31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7708FA4A22C6F59C005DDA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7708FA4C22C6F59C005DDA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7708FA4D22C6F59C005DDA31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7708FA8622C7067A005DDA31 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7708FA8822C70682005DDA31 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -99,14 +112,6 @@
 		7708FAF722C70F5E005DDA31 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		7708FAFA22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGTabBarViewControllerConfig.h; sourceTree = "<group>"; };
 		7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGTabBarViewControllerConfig.m; sourceTree = "<group>"; };
-		7708FB0122C70FF9005DDA31 /* MyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMainViewController.h; sourceTree = "<group>"; };
-		7708FB0222C70FF9005DDA31 /* MyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMainViewController.m; sourceTree = "<group>"; };
-		7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaoXunMainViewController.h; sourceTree = "<group>"; };
-		7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoXunMainViewController.m; sourceTree = "<group>"; };
-		7708FB0722C71026005DDA31 /* FenLeiMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainViewController.h; sourceTree = "<group>"; };
-		7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainViewController.m; sourceTree = "<group>"; };
-		7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JingXuanMainViewController.h; sourceTree = "<group>"; };
-		7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JingXuanMainViewController.m; sourceTree = "<group>"; };
 		7708FB0D22C7120C005DDA31 /* QingKuPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QingKuPrefixHeader.pch; sourceTree = "<group>"; };
 		7708FB0E22C71387005DDA31 /* PublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
 		C9A44B21AC23A7859A0246F3 /* Pods-QingKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingKu.debug.xcconfig"; path = "Target Support Files/Pods-QingKu/Pods-QingKu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +135,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E0762F2456C84D008A3637 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				04E076362456C946008A3637 /* Controller */,
+				04E076352456C93D008A3637 /* DataControl */,
+				04E076342456C937008A3637 /* Model */,
+				04E076332456C931008A3637 /* View */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		04E076332456C931008A3637 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E076372456C964008A3637 /* LoginView.h */,
+				04E076382456C964008A3637 /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E076342456C937008A3637 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E076352456C93D008A3637 /* DataControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataControl;
+			sourceTree = "<group>";
+		};
+		04E076362456C946008A3637 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04E0763A2456CC4C008A3637 /* LoginVC.h */,
+				04E0763B2456CC4C008A3637 /* LoginVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3FCA42DA99003ED83C07F9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +224,8 @@
 				7708FA4422C6F597005DDA31 /* Main.storyboard */,
 				7708FA4722C6F59C005DDA31 /* Assets.xcassets */,
 				7708FA4922C6F59C005DDA31 /* LaunchScreen.storyboard */,
-				7708FA4C22C6F59C005DDA31 /* Info.plist */,
+				04E0764C2456CFD7008A3637 /* Info.plist */,
+				04E076462456CF59008A3637 /* Localizable.strings */,
 				7708FA4D22C6F59C005DDA31 /* main.m */,
 				7708FB0D22C7120C005DDA31 /* QingKuPrefixHeader.pch */,
 			);
@@ -186,10 +235,7 @@
 		7708FA5422C704E3005DDA31 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0022C70FD3005DDA31 /* 我的 */,
-				7708FAFF22C70FCB005DDA31 /* 淘讯 */,
-				7708FAFE22C70FC1005DDA31 /* 分类 */,
-				7708FAFD22C70FB3005DDA31 /* 精选 */,
+				04E0762F2456C84D008A3637 /* 登录 */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -312,172 +358,10 @@
 				7708FAF722C70F5E005DDA31 /* RootTableViewController.m */,
 				7708FAFA22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.h */,
 				7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */,
+				04E0763D2456CD5C008A3637 /* PGGBaseNavigationController.h */,
+				04E0763E2456CD5C008A3637 /* PGGBaseNavigationController.m */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		7708FAFD22C70FB3005DDA31 /* 精选 */ = {
-			isa = PBXGroup;
-			children = (
-				777D6CF722C99B4A008370F8 /* Controller */,
-				777D6CF622C99B4A008370F8 /* DataController */,
-				777D6CF422C99B4A008370F8 /* Model */,
-				777D6CF522C99B4A008370F8 /* View */,
-			);
-			path = "精选";
-			sourceTree = "<group>";
-		};
-		7708FAFE22C70FC1005DDA31 /* 分类 */ = {
-			isa = PBXGroup;
-			children = (
-				777D6CF322C99B41008370F8 /* Controller */,
-				777D6CF222C99B41008370F8 /* DataController */,
-				777D6CF022C99B41008370F8 /* Model */,
-				777D6CF122C99B41008370F8 /* View */,
-			);
-			path = "分类";
-			sourceTree = "<group>";
-		};
-		7708FAFF22C70FCB005DDA31 /* 淘讯 */ = {
-			isa = PBXGroup;
-			children = (
-				777D6CED22C99B38008370F8 /* Controller */,
-				777D6CEF22C99B38008370F8 /* DataController */,
-				777D6CEC22C99B38008370F8 /* Model */,
-				777D6CEE22C99B38008370F8 /* View */,
-			);
-			path = "淘讯";
-			sourceTree = "<group>";
-		};
-		7708FB0022C70FD3005DDA31 /* 我的 */ = {
-			isa = PBXGroup;
-			children = (
-				777D6CEB22C99B0A008370F8 /* DataController */,
-				777D6CEA22C99B01008370F8 /* Model */,
-				777D6CE922C99AEE008370F8 /* Controller */,
-				777D6CE822C99AE0008370F8 /* View */,
-			);
-			path = "我的";
-			sourceTree = "<group>";
-		};
-		777D6CE822C99AE0008370F8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		777D6CE922C99AEE008370F8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7708FB0122C70FF9005DDA31 /* MyMainViewController.h */,
-				7708FB0222C70FF9005DDA31 /* MyMainViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		777D6CEA22C99B01008370F8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		777D6CEB22C99B0A008370F8 /* DataController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataController;
-			sourceTree = "<group>";
-		};
-		777D6CEC22C99B38008370F8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		777D6CED22C99B38008370F8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */,
-				7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		777D6CEE22C99B38008370F8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		777D6CEF22C99B38008370F8 /* DataController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataController;
-			sourceTree = "<group>";
-		};
-		777D6CF022C99B41008370F8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		777D6CF122C99B41008370F8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		777D6CF222C99B41008370F8 /* DataController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataController;
-			sourceTree = "<group>";
-		};
-		777D6CF322C99B41008370F8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7708FB0722C71026005DDA31 /* FenLeiMainViewController.h */,
-				7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		777D6CF422C99B4A008370F8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		777D6CF522C99B4A008370F8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		777D6CF622C99B4A008370F8 /* DataController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataController;
-			sourceTree = "<group>";
-		};
-		777D6CF722C99B4A008370F8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */,
-				7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		9315965E4B5344CA3F41AE66 /* Pods */ = {
@@ -533,6 +417,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 7708FA3222C6F597005DDA31;
 			productRefGroup = 7708FA3C22C6F597005DDA31 /* Products */;
@@ -550,7 +435,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7708FA4B22C6F59C005DDA31 /* LaunchScreen.storyboard in Resources */,
+				04E076442456CF59008A3637 /* Localizable.strings in Resources */,
 				7708FA4822C6F59C005DDA31 /* Assets.xcassets in Resources */,
+				04E0764F2456D680008A3637 /* Info.plist in Resources */,
 				7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,17 +510,15 @@
 			files = (
 				7708FAF222C70E77005DDA31 /* UIView+Additions.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
+				04E076392456C964008A3637 /* LoginView.m in Sources */,
 				7708FAA922C707F5005DDA31 /* UIView+UIViewExt.m in Sources */,
-				7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */,
-				7708FB0622C71010005DDA31 /* TaoXunMainViewController.m in Sources */,
 				7708FAA822C707F5005DDA31 /* UINavigationBar+FixMargin.m in Sources */,
+				04E0763F2456CD5C008A3637 /* PGGBaseNavigationController.m in Sources */,
 				7708FAE022C70D70005DDA31 /* HTTPManager.m in Sources */,
-				7708FB0C22C71035005DDA31 /* JingXuanMainViewController.m in Sources */,
 				7708FAEE22C70E1F005DDA31 /* BDKNotifyHUD.m in Sources */,
 				7708FAAC22C707F5005DDA31 /* UITabBar+badge.m in Sources */,
 				7708FAE822C70DC1005DDA31 /* GMDCircleLoader.m in Sources */,
 				7708FAEB22C70DEF005DDA31 /* MDB_ShareExstensionUserDefault.m in Sources */,
-				7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */,
 				7708FAFC22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m in Sources */,
 				7708FAA622C707F5005DDA31 /* UITextView+Placeholder.m in Sources */,
 				7708FA4322C6F597005DDA31 /* ViewController.m in Sources */,
@@ -645,6 +530,7 @@
 				7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */,
 				7708FAE422C70D88005DDA31 /* MDB_Imagemanager.m in Sources */,
 				04E0762E24566A0A008A3637 /* MDBwebVIew.m in Sources */,
+				04E0763C2456CC4C008A3637 /* LoginVC.m in Sources */,
 				7708FAAA22C707F5005DDA31 /* NSString+extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,10 +538,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		04E076462456CF59008A3637 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E076452456CF59008A3637 /* en */,
+				04E0764A2456CF85008A3637 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		04E0764C2456CFD7008A3637 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E0764B2456CFD7008A3637 /* vi */,
+				04E0764D2456CFE2008A3637 /* Base */,
+				04E0764E2456CFE3008A3637 /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		7708FA4422C6F597005DDA31 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7708FA4522C6F597005DDA31 /* Base */,
+				04E076482456CF85008A3637 /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -664,6 +570,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7708FA4A22C6F59C005DDA31 /* Base */,
+				04E076492456CF85008A3637 /* vi */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -675,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -734,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -800,7 +709,7 @@
 				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = QingKu/QingKuPrefixHeader.pch;
-				INFOPLIST_FILE = QingKu/Info.plist;
+				INFOPLIST_FILE = QingKu/Base.lproj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -834,7 +743,7 @@
 				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = QingKu/QingKuPrefixHeader.pch;
-				INFOPLIST_FILE = QingKu/Info.plist;
+				INFOPLIST_FILE = QingKu/Base.lproj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

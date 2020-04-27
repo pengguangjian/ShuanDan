@@ -2,7 +2,7 @@
 //  HTTPManager.h
 //  mdb
 //
-//  Created by 杜非 on 14/12/10.
+//  Created by penggj on 14/12/10.
 //  Copyright (c) 2014年 meidebi. All rights reserved.
 
 
